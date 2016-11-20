@@ -1,0 +1,37 @@
+{
+  "name": "angular2-social-login-example",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "~2.1.1",
+    "@angular/compiler": "~2.1.1",
+    "@angular/core": "~2.1.1",
+    "@angular/forms": "~2.1.1",
+    "@angular/http": "~2.1.1",
+    "@angular/platform-browser": "~2.1.1",
+    "@angular/platform-browser-dynamic": "~2.1.1",
+    "@angular/router": "~3.1.1",
+    "@angular/upgrade": "~2.1.1",
+    "angular-in-memory-web-api": "~0.1.13",
+    "reflect-metadata": "^0.1.8",
+    "core-js": "^2.4.1",
+    "material-design-lite": "^1.2.1",
+    "ng2-ui-auth": "^4.0.0",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.25",
+    "systemjs": "0.19.39",
+    "angular2-social-login": "1.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
+    "typescript": "^2.0.2",
+    "@types/core-js": "^0.9.34"
+  }
+}
