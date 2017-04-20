@@ -41,7 +41,8 @@ export class AppComponent implements OnDestroy {
   
   signIn(provider){
     this.sub = this._auth.login(provider).subscribe(
-      (data) => {this.user=data;}
+      (data) => {
+        console.log(data);this.user=data;}
     )
   }
 

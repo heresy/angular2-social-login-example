@@ -1,7 +1,7 @@
-/node_modules
-/typings
+node_modules
 npm-debug.log
 .vscode
-app/*.js
-app/*.js.map
+src/**/*.js
+!src/systemjs.config.js
+*.js.map
 provider.config.ts

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
-    "lite": "lite-server",
+    "lite": "lite-server -c=bs-config.json",
     "tsc": "tsc",
     "tsc:w": "tsc -w"
   },
@@ -25,7 +25,7 @@
     "rxjs": "5.0.1",
     "zone.js": "^0.7.4",
     "systemjs": "0.19.39",
-    "angular2-social-login": "2.0.2"
+    "angular2-social-login": "../angular2-social-login/"
   },
   "devDependencies": {
     "concurrently": "^3.2.0",
