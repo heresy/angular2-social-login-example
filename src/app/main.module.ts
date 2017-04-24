@@ -19,7 +19,7 @@ let providers = {
 @NgModule({
   imports: [ 
               BrowserModule,
-              Angular2SocialLoginModule.initWithProviders(providers)
+              Angular2SocialLoginModule
           ],
   declarations: [AppComponent],
   bootstrap: [ AppComponent ]
@@ -27,3 +27,5 @@ let providers = {
 export class AppModule { 
   constructor(){}
 }
+
+Angular2SocialLoginModule.loadProvidersScripts(providers);

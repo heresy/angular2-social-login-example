@@ -16,7 +16,7 @@
     'app':                        { main: 'main.js',  defaultExtension: 'js' },
     'rxjs':                       { defaultExtension: 'js' },
     'angular2-in-memory-web-api': { main: 'index.js', defaultExtension: 'js' },
-    "angular2-social-login": {main: 'lib/index.js', defaultExtension: "js"}
+    "angular2-social-login": {main: 'dist/bundles/angular2-social-login.min.js', defaultExtension: "js"}
   };
   var ngPackageNames = [
     'common',
